@@ -79,13 +79,13 @@ def word_features(doc):
 def sumLine(i,confMatrix):
 	sumOfLin = 0
 	for k in confMatrix[i]:
-		sumOfLin+= confMatrix[i][k]
+		sumOfLin += confMatrix[i][k]
 	return sumOfLin
 
 def sumColumn(i,confMatrix):
 	sumOfCol = 0
 	for k in confMatrix:
-		sumOfLin+= confMatrix[k][i]
+		sumOfCol += confMatrix[k][i]
 	return sumOfCol
 
 
@@ -96,7 +96,7 @@ def recall(i,confMatrix):
 	
 def precision(i,confMatrix):
 	cellValue = confMatrix[i][i]
-	colValue = sumCOl(i,confMatrix)
+	colValue = sumColumn(i,confMatrix)
 	return cellValue/colValue
 
 def sumRight(confMatrix):
@@ -116,7 +116,7 @@ def f_measure(recall,precision):
 	return (2*recall*precision)/(recall+precision)
 
 def accuracy(confMatrix):
-	return sumRight(confMatrix)/sumTotal(confMatrix)
+	return sumRight(confMatrix)/sumMatrix(confMatrix)
 
 
 def main():
@@ -186,7 +186,7 @@ def main():
 	sumRecall = 0
 	sumPrecision= 0
 
-	confMatrix = {}
+	confMatrix = {
 	for y in k:
 		confMatrix[y[0]] = {}
 		for x in k:
@@ -202,8 +202,8 @@ def main():
 	getAccuracy = accuracy(confMatrix)
 	print("Acruacia")
 	print(getAccuracy)
-	for e in labeled_test:
-		print(e)
+	for e in confMatrix:
+		print("Classificando classe %s:" % e)
 		print("Recall")
 		recallE = recall(e,confMatrix)
 		print(recallE)
