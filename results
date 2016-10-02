@@ -1,0 +1,219 @@
+Bayes Programa
+Acruacia
+0.03590664272890485
+Classificando classe trade:
+Recall
+0.9655172413793104
+Precision
+0.23931623931623933
+F-Measure
+0.3835616438356165
+Classificando classe earn:
+Recall
+0.7387304507819688
+Precision
+0.9962779156327544
+F-Measure
+0.8483888008452193
+Classificando classe wheat:
+Recall
+0.2112676056338028
+Precision
+0.32608695652173914
+F-Measure
+0.2564102564102564
+Classificando classe crude:
+Recall
+0.6243386243386243
+Precision
+0.4083044982698962
+F-Measure
+0.49372384937238495
+Classificando classe grain:
+Recall
+0.03355704697986577
+Precision
+0.2631578947368421
+F-Measure
+0.05952380952380952
+Classificando classe interest:
+Recall
+0.45038167938931295
+Precision
+0.5673076923076923
+F-Measure
+0.5021276595744681
+Classificando classe acq:
+Recall
+0.6954102920723226
+Precision
+0.9057971014492754
+F-Measure
+0.7867820613690008
+Classificando classe corn:
+Recall
+0.7090909090909091
+Precision
+0.17256637168141592
+F-Measure
+0.2775800711743772
+Classificando classe ship:
+Recall
+0.7303370786516854
+Precision
+0.5327868852459017
+F-Measure
+0.6161137440758294
+Classificando classe money-fx:
+Recall
+0.5586592178770949
+Precision
+0.6535947712418301
+F-Measure
+0.6024096385542168
+Bayes Alunos
+Acruacia
+0.0010771992818671453
+Classificando classe trade:
+Recall
+0.7931034482758621
+Precision
+0.5786163522012578
+F-Measure
+0.6690909090909092
+Classificando classe earn:
+Recall
+0.9760809567617296
+Precision
+0.4766397124887691
+F-Measure
+0.6405070932689405
+Classificando classe wheat:
+Recall
+0.5633802816901409
+Precision
+0.5194805194805194
+F-Measure
+0.5405405405405406
+Classificando classe crude:
+Recall
+0.32275132275132273
+Precision
+0.7922077922077922
+F-Measure
+0.4586466165413534
+Classificando classe grain:
+Recall
+0.30201342281879195
+Precision
+0.5
+F-Measure
+0.37656903765690375
+Classificando classe interest:
+Recall
+0.15267175572519084
+Precision
+0.37735849056603776
+F-Measure
+0.21739130434782608
+Classificando classe acq:
+Recall
+0.0
+Precision
+0.0
+F-Measure
+0
+Classificando classe corn:
+Recall
+0.41818181818181815
+Precision
+0.3333333333333333
+F-Measure
+0.3709677419354838
+Classificando classe ship:
+Recall
+0.11235955056179775
+Precision
+0.5
+F-Measure
+0.18348623853211007
+Classificando classe money-fx:
+Recall
+0.01675977653631285
+Precision
+0.21428571428571427
+F-Measure
+0.031088082901554404
+SVC scikit
+Acruacia
+0.01651705565529623
+Classificando classe trade:
+Recall
+0.23275862068965517
+Precision
+0.38571428571428573
+F-Measure
+0.2903225806451613
+Classificando classe earn:
+Recall
+0.8942042318307267
+Precision
+0.6675824175824175
+F-Measure
+0.7644514353126228
+Classificando classe wheat:
+Recall
+0.0
+Precision
+0.0
+F-Measure
+0
+Classificando classe crude:
+Recall
+0.10582010582010581
+Precision
+0.9523809523809523
+F-Measure
+0.19047619047619047
+Classificando classe grain:
+Recall
+0.174496644295302
+Precision
+0.4642857142857143
+F-Measure
+0.25365853658536586
+Classificando classe interest:
+Recall
+0.0
+Precision
+0.0
+F-Measure
+0
+Classificando classe acq:
+Recall
+0.847009735744089
+Precision
+0.5607734806629834
+F-Measure
+0.674792243767313
+Classificando classe corn:
+Recall
+0.0
+Precision
+0.0
+F-Measure
+0
+Classificando classe ship:
+Recall
+0.0
+Precision
+0.0
+F-Measure
+0
+Classificando classe money-fx:
+Recall
+0.2569832402234637
+Precision
+0.4791666666666667
+F-Measure
+0.33454545454545453
