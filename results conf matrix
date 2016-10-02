@@ -1,0 +1,225 @@
+bayesconfmatrx
+{'grain': {'grain': 5, 'crude': 0, 'earn': 0, 'interest': 0, 'trade': 25, 'ship': 3, 'money-fx': 0, 'corn': 91, 'wheat': 25, 'acq': 0}, 'crude': {'grain': 0, 'crude': 127, 'earn': 0, 'interest': 0, 'trade': 31, 'ship': 22, 'money-fx': 0, 'corn': 7, 'wheat': 0, 'acq': 2}, 'earn': {'grain': 4, 'crude': 112, 'earn': 832, 'interest': 9, 'trade': 62, 'ship': 8, 'money-fx': 0, 'corn': 26, 'wheat': 1, 'acq': 33}, 'interest': {'grain': 0, 'crude': 1, 'earn': 0, 'interest': 72, 'trade': 14, 'ship': 0, 'money-fx': 44, 'corn': 0, 'wheat': 0, 'acq': 0}, 'trade': {'grain': 0, 'crude': 0, 'earn': 0, 'interest': 1, 'trade': 110, 'ship': 0, 'money-fx': 0, 'corn': 5, 'wheat': 0, 'acq': 0}, 'ship': {'grain': 1, 'crude': 3, 'earn': 1, 'interest': 0, 'trade': 9, 'ship': 66, 'money-fx': 0, 'corn': 3, 'wheat': 5, 'acq': 1}, 'money-fx': {'grain': 0, 'crude': 0, 'earn': 0, 'interest': 29, 'trade': 47, 'ship': 0, 'money-fx': 101, 'corn': 2, 'wheat': 0, 'acq': 0}, 'corn': {'grain': 2, 'crude': 0, 'earn': 0, 'interest': 0, 'trade': 8, 'ship': 0, 'money-fx': 0, 'corn': 44, 'wheat': 1, 'acq': 0}, 'wheat': {'grain': 7, 'crude': 0, 'earn': 0, 'interest': 0, 'trade': 9, 'ship': 1, 'money-fx': 0, 'corn': 36, 'wheat': 18, 'acq': 0}, 'acq': {'grain': 0, 'crude': 49, 'earn': 3, 'interest': 15, 'trade': 70, 'ship': 26, 'money-fx': 0, 'corn': 41, 'wheat': 2, 'acq': 513}}
+ourconfmatrx
+{'grain': {'grain': 54, 'crude': 0, 'earn': 32, 'interest': 0, 'trade': 3, 'ship': 1, 'money-fx': 0, 'corn': 24, 'wheat': 35, 'acq': 0}, 'crude': {'grain': 1, 'crude': 61, 'earn': 102, 'interest': 2, 'trade': 8, 'ship': 5, 'money-fx': 1, 'corn': 0, 'wheat': 0, 'acq': 9}, 'earn': {'grain': 2, 'crude': 8, 'earn': 1030, 'interest': 10, 'trade': 2, 'ship': 2, 'money-fx': 1, 'corn': 1, 'wheat': 0, 'acq': 31}, 'interest': {'grain': 0, 'crude': 0, 'earn': 84, 'interest': 20, 'trade': 5, 'ship': 0, 'money-fx': 5, 'corn': 0, 'wheat': 0, 'acq': 17}, 'trade': {'grain': 2, 'crude': 0, 'earn': 20, 'interest': 0, 'trade': 92, 'ship': 1, 'money-fx': 1, 'corn': 0, 'wheat': 0, 'acq': 0}, 'ship': {'grain': 6, 'crude': 6, 'earn': 54, 'interest': 1, 'trade': 5, 'ship': 11, 'money-fx': 1, 'corn': 1, 'wheat': 0, 'acq': 4}, 'money-fx': {'grain': 0, 'crude': 0, 'earn': 124, 'interest': 10, 'trade': 32, 'ship': 0, 'money-fx': 3, 'corn': 0, 'wheat': 0, 'acq': 10}, 'corn': {'grain': 22, 'crude': 0, 'earn': 16, 'interest': 0, 'trade': 0, 'ship': 0, 'money-fx': 0, 'corn': 15, 'wheat': 2, 'acq': 0}, 'wheat': {'grain': 18, 'crude': 0, 'earn': 6, 'interest': 0, 'trade': 0, 'ship': 0, 'money-fx': 0, 'corn': 7, 'wheat': 40, 'acq': 0}, 'acq': {'grain': 4, 'crude': 2, 'earn': 633, 'interest': 10, 'trade': 12, 'ship': 1, 'money-fx': 2, 'corn': 1, 'wheat': 0, 'acq': 54}}
+svcconfmatrx
+{'grain': {'grain': 26, 'crude': 0, 'earn': 65, 'interest': 0, 'trade': 8, 'ship': 0, 'money-fx': 0, 'corn': 1, 'wheat': 0, 'acq': 49}, 'crude': {'grain': 0, 'crude': 22, 'earn': 64, 'interest': 0, 'trade': 3, 'ship': 0, 'money-fx': 0, 'corn': 0, 'wheat': 0, 'acq': 100}, 'earn': {'grain': 0, 'crude': 1, 'earn': 983, 'interest': 0, 'trade': 0, 'ship': 0, 'money-fx': 0, 'corn': 0, 'wheat': 0, 'acq': 103}, 'interest': {'grain': 0, 'crude': 0, 'earn': 90, 'interest': 0, 'trade': 5, 'ship': 0, 'money-fx': 21, 'corn': 0, 'wheat': 0, 'acq': 15}, 'trade': {'grain': 1, 'crude': 0, 'earn': 38, 'interest': 0, 'trade': 26, 'ship': 0, 'money-fx': 3, 'corn': 0, 'wheat': 0, 'acq': 48}, 'ship': {'grain': 2, 'crude': 1, 'earn': 33, 'interest': 0, 'trade': 4, 'ship': 0, 'money-fx': 0, 'corn': 0, 'wheat': 0, 'acq': 49}, 'money-fx': {'grain': 0, 'crude': 0, 'earn': 91, 'interest': 0, 'trade': 6, 'ship': 0, 'money-fx': 35, 'corn': 0, 'wheat': 0, 'acq': 47}, 'corn': {'grain': 11, 'crude': 0, 'earn': 26, 'interest': 0, 'trade': 3, 'ship': 0, 'money-fx': 0, 'corn': 1, 'wheat': 0, 'acq': 14}, 'wheat': {'grain': 14, 'crude': 0, 'earn': 27, 'interest': 0, 'trade': 3, 'ship': 0, 'money-fx': 0, 'corn': 1, 'wheat': 0, 'acq': 26}, 'acq': {'grain': 1, 'crude': 0, 'earn': 95, 'interest': 0, 'trade': 3, 'ship': 0, 'money-fx': 0, 'corn': 0, 'wheat': 0, 'acq': 620}}
+Bayes Programa
+Acruacia
+0.6779174147217235
+Classificando classe grain:
+Recall
+0.03355704697986577
+Precision
+0.2631578947368421
+F-Measure
+0.05952380952380952
+Classificando classe crude:
+Recall
+0.671957671957672
+Precision
+0.4349315068493151
+F-Measure
+0.5280665280665281
+Classificando classe earn:
+Recall
+0.765409383624655
+Precision
+0.9952153110047847
+F-Measure
+0.8653146125845034
+Classificando classe interest:
+Recall
+0.549618320610687
+Precision
+0.5714285714285714
+F-Measure
+0.5603112840466926
+Classificando classe trade:
+Recall
+0.9482758620689655
+Precision
+0.2857142857142857
+F-Measure
+0.4391217564870259
+Classificando classe ship:
+Recall
+0.7415730337078652
+Precision
+0.5238095238095238
+F-Measure
+0.6139534883720932
+Classificando classe money-fx:
+Recall
+0.5642458100558659
+Precision
+0.696551724137931
+F-Measure
+0.6234567901234568
+Classificando classe corn:
+Recall
+0.8
+Precision
+0.17254901960784313
+F-Measure
+0.28387096774193543
+Classificando classe wheat:
+Recall
+0.2535211267605634
+Precision
+0.34615384615384615
+F-Measure
+0.2926829268292683
+Classificando classe acq:
+Recall
+0.713490959666203
+Precision
+0.9344262295081968
+F-Measure
+0.8091482649842271
+Bayes Alunos
+Acruacia
+0.4955116696588869
+Classificando classe grain:
+Recall
+0.3624161073825503
+Precision
+0.4954128440366973
+F-Measure
+0.4186046511627907
+Classificando classe crude:
+Recall
+0.32275132275132273
+Precision
+0.7922077922077922
+F-Measure
+0.4586466165413534
+Classificando classe earn:
+Recall
+0.9475620975160993
+Precision
+0.4902427415516421
+F-Measure
+0.6461731493099122
+Classificando classe interest:
+Recall
+0.15267175572519084
+Precision
+0.37735849056603776
+F-Measure
+0.21739130434782608
+Classificando classe trade:
+Recall
+0.7931034482758621
+Precision
+0.5786163522012578
+F-Measure
+0.6690909090909092
+Classificando classe ship:
+Recall
+0.12359550561797752
+Precision
+0.5238095238095238
+F-Measure
+0.2
+Classificando classe money-fx:
+Recall
+0.01675977653631285
+Precision
+0.21428571428571427
+F-Measure
+0.031088082901554404
+Classificando classe corn:
+Recall
+0.2727272727272727
+Precision
+0.30612244897959184
+F-Measure
+0.28846153846153844
+Classificando classe wheat:
+Recall
+0.5633802816901409
+Precision
+0.5194805194805194
+F-Measure
+0.5405405405405406
+Classificando classe acq:
+Recall
+0.07510431154381085
+Precision
+0.432
+F-Measure
+0.1279620853080569
+SVC scikit
+Acruacia
+0.61508078994614
+Classificando classe grain:
+Recall
+0.174496644295302
+Precision
+0.4727272727272727
+F-Measure
+0.2549019607843137
+Classificando classe crude:
+Recall
+0.1164021164021164
+Precision
+0.9166666666666666
+F-Measure
+0.20657276995305163
+Classificando classe earn:
+Recall
+0.9043238270469182
+Precision
+0.6501322751322751
+F-Measure
+0.7564447864563295
+Classificando classe interest:
+Recall
+0.0
+Precision
+0.0
+F-Measure
+0
+Classificando classe trade:
+Recall
+0.22413793103448276
+Precision
+0.4262295081967213
+F-Measure
+0.2937853107344633
+Classificando classe ship:
+Recall
+0.0
+Precision
+0.0
+F-Measure
+0
+Classificando classe money-fx:
+Recall
+0.19553072625698323
+Precision
+0.5932203389830508
+F-Measure
+0.29411764705882354
+Classificando classe corn:
+Recall
+0.01818181818181818
+Precision
+0.3333333333333333
+F-Measure
+0.034482758620689655
+Classificando classe wheat:
+Recall
+0.0
+Precision
+0.0
+F-Measure
+0
+Classificando classe acq:
+Recall
+0.8623087621696801
+Precision
+0.5788982259570495
+F-Measure
+0.6927374301675979

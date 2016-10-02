@@ -6,6 +6,8 @@ from math import log
 from nltk.classify import SklearnClassifier
 from sklearn.naive_bayes import BernoulliNB
 from sklearn.svm import SVC
+from nltk.stem.snowball import SnowballStemmer
+from nltk.corpus import stopwords
 
 def extractTestTraining(conj,indice):
 	trein = conj[:indice[0]]
@@ -83,13 +85,15 @@ def classBayes(word_features,probabilityDictionary,classesWords):
 	return max(documentsProbabilities.items(), key=itemgetter(1))[0]
 
 
-def word_features(doc):
+def word_features(doc,stemmer):
 	words = {}
 	for word in reuters.words(doc):
-		if word in words:
-			words[word]+=1
-		else:
-			words[word]=1
+		if word not in stopwords.words('english'):
+			stemmed_word = stemmer.stem(word)
+			if word in words:
+				words[word]+=1
+			else:
+				words[word]=1
 	return words
 
 def sumLine(i,confMatrix):
@@ -122,7 +126,7 @@ def precision(i,confMatrix):
 def sumRight(confMatrix):
 	sumRight = 0
 	for i in confMatrix:
-		sumRight = confMatrix[i][i]
+		sumRight += confMatrix[i][i]
 	return sumRight
 
 def sumMatrix(confMatrix):
@@ -157,6 +161,7 @@ def main():
 	k = k[0:10]
 	#DOcumentos validos
 
+	stemmer = SnowballStemmer("english")
 	treinamento = {}
 	teste = {}
 	docTotal = []
@@ -181,18 +186,20 @@ def main():
 		wordDictionary[classe] = {}
 		for doc in treinamento[classe]:
 			for word in reuters.words(doc):
-				if word in wordDictionary[classe]:
-					wordDictionary[classe][word]+=1
-				else:
-					wordDictionary[classe][word]=1
+				if word not in stopwords.words('english'):
+					treated_word = stemmer.stem(word)
+					if word in wordDictionary[classe]:
+						wordDictionary[classe][word]+=1
+					else:
+						wordDictionary[classe][word]=1
 
 
 	probabilityDictionary = getProbDictionary(treinamento,wordDictionary)
 
 
 	trainset = []
-	labeled_train = ([(word_features(treatdoc),i) for i in treinamento for treatdoc in treinamento[i]])	
-	labeled_test =  ([(word_features(treatdoc),i) for i in teste for treatdoc in teste[i]])
+	labeled_train = ([(word_features(treatdoc,stemmer),i) for i in treinamento for treatdoc in treinamento[i]])	
+	labeled_test =  ([(word_features(treatdoc,stemmer),i) for i in teste for treatdoc in teste[i]])
 
 	classifier = nltk.NaiveBayesClassifier.train(labeled_train)
 	SVCClassifier =   SklearnClassifier(SVC()).train(labeled_train)
@@ -218,6 +225,8 @@ def main():
 		total+=1
 
 
+
+
 	progress = 0
 	for i in labeled_test:
 		print("Progress: %.2f [%d of %d]" % (progress/total,progress,total))
@@ -232,6 +241,14 @@ def main():
 
 
 
+	print("bayesconfmatrx")
+	print(confMatrixBayesProg)
+
+	print("ourconfmatrx")
+	print(confMatrixBayesUser)
+
+	print("svcconfmatrx")
+	print(confMatrixSVCProg)
 
 	getAccuracyProg = accuracy(confMatrixBayesProg)
 	print("Bayes Programa")
